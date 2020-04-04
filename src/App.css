@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kanit:800&display');
+
+.App {
+  padding: 30px;
+  font-family: 'Questrial', sans-serif;
+}
+
+.World {
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  padding-bottom: 20px;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.World .Title {
+  height: 40px;
+  width: 100%;
+  line-height: 30px;
+}
+
+.World .Title .Text {
+  color:#d9d9d9;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 16px;
+  font-family: 'Questrial', sans-serif;
+}
+
+.World .Body {
+  color:#d9d9d9;
+}
+
+.World .Body .Cases {
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.World .Body .Subtitle {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: 'Kanit', sans-serif;
+}
+
+.World .Body .Number {
+  line-height: 60px;
+  vertical-align: bottom;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.Country {
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.Country .Title {
+  height: 82px;
+  width: 100%;
+  line-height: 68px;
+}
+
+.Country .Title .TextInput {
+  color:#d9d9d9;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 52px;
+  background-color: #37474f;
+  outline: none;
+  border: 0;
+  font-family: 'Questrial', sans-serif;
+}
+
+.Country .Body {
+  color:#d9d9d9;
+}
+
+.Country .Body .Cases {
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.Country .Body .Subtitle {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: 'Kanit', sans-serif;
+}
+
+.Country .Body .Number {
+  line-height: 60px;
+  vertical-align: bottom;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.Credits {
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.Credits .Credit {
+  line-height: 20px;
+}
+
+.Credits .Link {
+  text-decoration: none;
+  color:#d9d9d9;
+}
+
+.Loading {
+  height: 432px;
+  width: 100%;
+  text-align: center;
+}
+
+.Spinner {
+  margin-top: 116px;
+}
